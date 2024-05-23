@@ -9,3 +9,4 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 This is Hangman
 
 2. This is what it is for. 
+Takes in a single letter and compared it to a selected word. 
