@@ -18,7 +18,7 @@ class Hangman:
             print(f"Good guess! {guess} is in the word.")
 
 
-    def ask_for_input():
+    def ask_for_input(self):
         while True:
             guess = input("Please guess a letter:") 
             if len(guess) > 1 and not guess.isalpha():
@@ -28,8 +28,6 @@ class Hangman:
             else:
                 self.list_of_guesses.append(guess)
                 self.check_guess(guess)    
-
-ask_for_input()  
 
     
 
